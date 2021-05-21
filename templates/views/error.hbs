@@ -1,0 +1,33 @@
+<html lang='en'>
+  {{>headerlinks}}
+  <body>
+    {{>navbar}}
+
+    <!-- main header -->
+    <div class='container-fluid'>
+      <div class='row'>
+        <div class='col-md-10 col-12 mx-auto'>
+          <div class='row'>
+            <div class='col-md-6 col-12 main_header_LEFT align-items-center'>
+              <figure>
+                <img
+                  src='images/banner_error_404.jpg'
+                  alt=''
+                  class='img-fluid'
+                  title='utkarsh'
+                />
+              </figure>
+            </div>
+            <div class='col-md-6 col-12 main_header_left'>
+              <p>welcome to weather app</p>
+              <h1>{{errormsg}}</h1>
+              <a href='/'>
+                <button>Go Back</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{>footer}}
+  </body>
+</html>
